@@ -1,0 +1,20 @@
+{
+  "name": "recursion-top",
+  "version": "1.0.0",
+  "description": "A repository to practice recursion. To be made in completion of The Odin Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stGozman/recursion-TOP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stGozman/recursion-TOP/issues"
+  },
+  "homepage": "https://github.com/stGozman/recursion-TOP#readme"
+}
