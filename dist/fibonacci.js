@@ -30,5 +30,5 @@ const fibsRec = (n) => {
         return fibsArray;
     }
 };
-console.log(fibs(12));
-console.log(fibsRec(12));
+console.log(fibs(7));
+console.log(fibsRec(7));

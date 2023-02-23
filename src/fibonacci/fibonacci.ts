@@ -32,5 +32,5 @@ const fibsRec = (n: number): number[] => {
   }
 };
 
-console.log(fibs(12));
-console.log(fibsRec(12));
+console.log(fibs(7));
+console.log(fibsRec(7));
