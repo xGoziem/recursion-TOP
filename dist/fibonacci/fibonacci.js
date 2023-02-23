@@ -1,5 +1,5 @@
 "use strict";
-//! Creating the Fibonacci Sequence using iterative and recyrsive methods.
+//! Creating the Fibonacci Sequence using iterative and recursive methods.
 //! Using iteration
 const fibs = (number) => {
     const fibsArray = [];
