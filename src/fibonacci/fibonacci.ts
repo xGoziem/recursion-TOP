@@ -13,9 +13,11 @@ const fibs = (number: number): number[] => {
     current = initial + current;
     initial = temp;
   }
-
+  
   return fibsArray;
 };
+
+console.log(fibs(7)); // [0, 1, 1, 2, 3, 5, 8]
 
 //! Using recursion
 const fibsRec = (n: number): number[] => {
@@ -32,5 +34,4 @@ const fibsRec = (n: number): number[] => {
   }
 };
 
-console.log(fibs(7));
-console.log(fibsRec(7));
+console.log(fibsRec(9)); // [0, 1, 1, 2, 3, 5, 8, 13, 21]

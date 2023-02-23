@@ -35,4 +35,4 @@ const merge = (leftArray: number[], rightArray: number[]): number[] => {
   return sortedArray.concat(leftArray.slice(leftIndex)).concat(rightArray.slice(rightIndex));
 }
 
-console.log(mergeSort([12, 2, 1, 3, 6, 5]));
+console.log(mergeSort([12, 2, 1, 3, 6, 5])); // [1, 2, 3, 5, 6, 12]
