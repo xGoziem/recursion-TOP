@@ -13,6 +13,7 @@ const fibs = (number) => {
     }
     return fibsArray;
 };
+console.log(fibs(7)); // [0, 1, 1, 2, 3, 5, 8]
 //! Using recursion
 const fibsRec = (n) => {
     if (n <= 0) {
@@ -30,5 +31,4 @@ const fibsRec = (n) => {
         return fibsArray;
     }
 };
-console.log(fibs(7));
-console.log(fibsRec(7));
+console.log(fibsRec(9)); // [0, 1, 1, 2, 3, 5, 8, 13, 21]
